@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição:"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/text_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor:"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/text_payment_format"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Formato de pagamento:"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/text_number_parcel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número de parcelas:"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+
+</LinearLayout>

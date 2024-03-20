@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cart_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/total_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Total: R$0.00"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/tx_value_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Value Product"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/pay_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startPaymentActivity"
+        android:text="Pagar com Cielo Lio" />
+
+</LinearLayout>
